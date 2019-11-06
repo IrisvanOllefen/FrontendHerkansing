@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Eindopdracht</title>
+    <link rel="stylesheet" type="text/css" href="Stylesheet/Stylesheet3.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Livvic&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial scale=1" />
+</head>
+
+<body class="page-detail">
+    <nav>
+      <button class="login-button" href="#">Log in</button>
+    </nav>
+
+    <header>
+      <h1 id="logo"><a href="index.html">Rollende Keukens</a></h1>
+
+      <form class="search-form" id="content">
+        <input type="text" name="input" class="input" id="search-input" />
+        <button type="reset" class="search" id="search-btn"></button>
+      </form>
+    </header>
+
+    <h1 id="title" class="glitch">Burgerei Foodtruck</h1>
+
+    <div class="wrapper">
+        <img src="Images/burgertruck2.jpg" alt="Burgertruck"/>
+
+        <aside class="rating">
+            <h3>Ratings</h3>
+            <h4>Anoniem</h4>
+            <p>
+                Erg fijne foodtruck, zij gaan goed tewerk en zijn echt waar voor hun
+                geld!
+            </p>
+            <h4>Laura van Wijken</h4>
+            <p>
+                Ik vind deze foodtruck echt top! Ze waren heel klantvriendelijk en
+                hebben alle mensen op mijn feest heel erg blij gemaakt met het
+                heerlijke voedsel!
+            </p>
+        </aside>
+    </div>
+
+    <div class="wrapper">
+        <article class="uitleg">
+            <h2>
+                De Burger Ei Foodtruck gelooft in goed en lekker eten. Goed gewonnen
+                vlees en vrij uitloopeieren zijn hoe zij werken. Met meer dan 15
+                verschillende soorten burgers op het menu en nog een aantal side
+                dishes maken zij elk evenement of feest een werkelijke burger-party!
+            </h2>
+        </article>
+        <article class="informatie">
+            <h3>Gerechten:</h3>
+            <ul class="gerechten">
+                <li>Classic Cheeseburger</li>
+                <li>Classic Hamburger</li>
+                <li>Bucket List Burger</li>
+                <li>Bacon Cheeseburger</li>
+                <li>Black and Blue Burger</li>
+                <li>Mushroom and Swiss Burger</li>
+                <li>Smokehouse Burger</li>
+                <li>Chili Cheeseburger</li>
+                <li>Turker Burger</li>
+                <li>Veggie Burger</li>
+            </ul>
+            <p>
+                Wij hebben ook side dishes zoals French Fries, Cheese Fries, Chili
+                Cheese Fries en Onion Rings
+            </p>
+            <!-- menu is overgenomen van https://cheeseburgerbobbys.com/menu/bobbys-sides/#tab -->
+            <h3>Details</h3>
+            <ul class="details">
+                <li>Max. capaciteit per uur: 100 servings</li>
+                <li>Gemiddelde prijs per persoon: 6 euro</li>
+                <li>Benodigde faciliteiten: Elektriciteit</li>
+                <li>Bedieningsregio: Amsterdam + 100 km</li>
+                <li>KvK nummer: 12348204</li>
+            </ul>
+            <!-- details zijn deels overgenomen van https://www.foodtruckbooking.nl/foodtruck/amersfoort/8649/bedford-ijswagen -->
+        </article>
+
+        <!-- voor het positioneren van de articles en de asides heb ik informatie van https://css-tricks.com/snippets/css/a-guide-to-flexbox/ gehaald -->
+    </div>
+
+    <div class="overlay hidden"></div>
+    <form action="" class="login-form modal hidden">
+     <h2>Log in</h2>
+      <p>Email adres</p>
+      <input type="email" />
+      <p>Wachtwoord</p>
+      <input type="password" />
+      <div class="actions">
+        <input type="button" value="Log in!" class="button" />
+        <input type="button" value="Meld je aan!" class="button" disabled />
+      </div>
+    </form>
+
+    <script src="/Javascript/script.js"></script>
+
+
+
+</body></html>
